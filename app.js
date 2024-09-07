@@ -1,6 +1,7 @@
 function pesquisar() {
   // Obtém a seção HTML onde os resultados serão exibidos
   let section = document.getElementById("resultados-pesquisa"); 
+  let campoPesquisa = document.getElementById("campo-pesquisa");
 
   // Inicializa uma string vazia para armazenar os resultados
   let resultados = "";
